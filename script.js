@@ -1,7 +1,8 @@
 const buttonAdd = document.createElement('button');
-buttonAdd.textContent = 'Click me';
-document.body.appendChild(buttonAdd);
+const mainContainer = document.querySelector('.wrap__container');
 
+mainContainer.appendChild(buttonAdd);
+buttonAdd.textContent = 'Click me';
 buttonAdd.classList.add('button-add');
 
 

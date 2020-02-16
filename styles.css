@@ -1,3 +1,22 @@
+.wrap{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrap__container{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrap__container_input{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+}
 .button-add{
     border: darkred 2px solid;
     font-size: 20px;
